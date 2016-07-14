@@ -23,7 +23,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        ,-------------.       ,-------------.
  *                                        | F5   | F6   |       | F7   | F8   |
  *                                 ,------|------|------|       |------+--------+------.
- *                                 |      |      | PGUP |       | UP   |        |      |
+ *                                 |      |      | PGUP |       | '"   |        |      |
  *                                 | Space|Backsp|------|       |------|  ALT   |Enter |
  *                                 |      |ace   | PGDN |       | DOWN |        |      |
  *                                 `--------------------'       `----------------------'
@@ -41,14 +41,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                               KC_PGUP,
                                                KC_SPC,KC_BSPC,KC_PGDN,
         // right hand
-             KC_7,     KC_8,   KC_9,   KC_0,   KC_MINS,   KC_EQL,   LT(SYMB,KC_GRV),
+             KC_7,     KC_8,   KC_9,   KC_0,   KC_MINS,   KC_EQL,   KC_ENT,
              KC_DELT,    KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             ALT_T(KC_BSLS),
                           KC_H,   KC_J,   KC_K,   KC_L,   LT(MDIA, KC_SCLN),GUI_T(KC_QUOT),
              GUI_T(KC_F2),KC_N,   KC_M,   KC_COMM,KC_DOT, CTL_T(KC_SLSH),   KC_RSFT,
                                   KC_UP,  KC_DOWN,KC_LBRC,  KC_RBRC,          TG(SYMB),
              KC_F7,        KC_F8,
-             KC_UP,
-             KC_DOWN,KC_LALT, KC_ENT
+             LT(SYMB,KC_GRV),
+             KC_F9,KC_LALT, KC_ENT
     ),
 /* Keymap 1: Symbol Layer
  *
