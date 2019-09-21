@@ -8,3 +8,7 @@
 This is what we ship with out of the factory. :) The image says it all:
 
 ![Default](default_highres.png)
+
+
+layout url 
+https://configure.ergodox-ez.com/ergodox-ez/layouts/Vq03e/latest/0
